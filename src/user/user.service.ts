@@ -14,7 +14,7 @@ export class UserService {
 
     const user: User = {
       ...createUserDto,
-      id: this.users.length++,
+      id: this.users.length + 1,
       password: passwordHash,
     };
 
